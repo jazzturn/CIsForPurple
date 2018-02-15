@@ -12,10 +12,18 @@ h2 {
   justify-content: center;
 }
 p {
-  display: flex;
-  justify-content: center;
+
 }
 b {
+
+}
+.title-instructions {
+  display: flex;
+  width: 75%;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.game-time {
 
 }
 /* style this if needed after styling all other elements and classes
