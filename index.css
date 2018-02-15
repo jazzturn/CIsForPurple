@@ -1,0 +1,43 @@
+body,html {
+  display: flex;
+}
+h1 {
+
+}
+h2{
+
+}
+p {
+
+}
+b {
+
+}
+/* style this if needed after styling all other elements and classes
+div {
+
+}
+*/
+.purple-words {
+
+}
+.red-words {
+
+}
+/*
+may not need to style, but definitely save for js
+.hide-show {
+}
+*/
+.purple-circle {
+
+}
+.red-circle {
+
+}
+.score-keeper {
+
+}
+.happy-sad {
+  
+}
