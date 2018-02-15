@@ -32,12 +32,21 @@ b {
 }
 .game-time {
   display: flex;
+  width: 75%;
+  align-self: center;
   flex-direction: column;
   justify-content: center;
+  margin-top: 30px;
 }
 .circle-spacing {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.score-smile-spacing {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 15px;
 }
 .purple-words {
   color: #AE16A5;
@@ -66,9 +75,12 @@ may not need to style, but definitely save for js
   background-color: #C7C7C7;
   height: 50px;
   width: 100px;
+  align-self: center;
 }
 #happy-sad {
- background-color: #000000;
- height: 100px;
- width: 100px;
+ font-weight: bold;
+ font-size: 6em;
+ text-align: center;
+ margin-top: 15px;
+ color: black;
 }
