@@ -11,3 +11,6 @@
 
 //if -10 is reached, switch happy face, to sad face, and reset the game back to smiley face and a score of 0
 //if 10 is reached, stay at happy face, give congrats, and reset the game back to 0
+$(document).ready(function(){
+  
+});
