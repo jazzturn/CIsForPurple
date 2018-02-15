@@ -1,6 +1,7 @@
 body,html {
   display: flex;
   font-family: Courier;
+  justify-content: center;
 }
 h1 {
   display: flex;
@@ -12,25 +13,32 @@ h2 {
   justify-content: center;
 }
 p {
-
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
 }
 b {
 
 }
-.title-instructions {
+.entire-screen {
   display: flex;
-  width: 75%;
-  flex-flow: column wrap;
+  flex-direction: column;
   justify-content: center;
 }
+.title-instructions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .game-time {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-/* style this if needed after styling all other elements and classes
-div {
-
+.circle-spacing {
+  display: flex;
+  justify-content: space-between;
 }
-*/
 .purple-words {
   color: #AE16A5;
 }
